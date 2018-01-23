@@ -38,7 +38,9 @@ def over?(board)
 end   
 
 def winner(board)
-  return won?(board)
+  if won?(board) == true
+    puts position_taken?(board,won?(board))
+  end
 end
 
 
