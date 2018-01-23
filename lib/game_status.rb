@@ -39,8 +39,7 @@ end
 
 def winner(board)
   if won?(board) == true
-    puts position_taken?(board,won?(board))
-  end
+    puts won?(board)
 end
 
 
