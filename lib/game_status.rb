@@ -40,7 +40,7 @@ end
 def winner(board)
   if won?(board) == true 
     puts won?(board)
-  end
+  end 
 end
 
 
