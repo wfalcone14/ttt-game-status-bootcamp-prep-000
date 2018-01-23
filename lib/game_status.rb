@@ -38,8 +38,12 @@ def over?(board)
 end   
 
 def winner(board)
-  if won?(board) == true
-    puts board[combo[0]]
+  if won?(board) == true && board[combo[0]] == "X"
+    puts "X"
+  elsif won?(board) == true && board[combo[0]] == "Y"
+    puts "Y"
+  else
+    puts "nil"
   end
 end
 
