@@ -38,7 +38,8 @@ def over?(board)
 end   
 
 def winner(board)
- 
+  win = won?(board)
+  puts win[0]
 end
 
 
